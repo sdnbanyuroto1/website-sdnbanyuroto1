@@ -1,0 +1,65 @@
+.navbar {
+    background-color: white;
+    padding: 1.25rem 0;
+}
+.headertop {
+    padding: 10px 0;
+    background-color: #0d1282;
+}
+.headertopcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+    .headertopcontainer {
+        flex-direction: column;
+    }
+    .headertop {
+        padding: 0;
+    }
+}
+.navitem {
+    padding: 0.25rem 0;
+    padding-left: 1.75rem;
+}
+.navitem a {
+    color: rgb(22, 58, 205);
+    font-size: 1.25rem;
+    display: block;
+    text-decoration: none;
+}
+.navitem a:hover {
+    font-weight: bold;
+    border-bottom: 3px solid;
+    font-size: 1rem;
+}
+.active {
+    font-weight: bold;
+    border-bottom: 3px solid;
+    font-size: 1.5rem;
+}
+.kontaknav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnlogin a {
+    background-color: red;
+}
+.dropdown {
+    color: #0d1282;
+}
+.dropdown:hover {
+    color: #75c2f6;
+}
+.btnlogin {
+    background-color: #0d1282;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: #75c2f6;
+}
+.btnlogin:hover {
+    background-color: #75c2f6;
+}
